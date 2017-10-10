@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>CGPA to Percent</title>
+</head>
+<body bgcolor="#F7DC6F">
+<center>
+<h2> Mumbai University CGPA to Percent Converter</h2>
+<p>Enter CGPA</P>
+<input id="num"></p>
+<button onClick="convert()">Convert</button>
+<button onClick="reset()">Clear</button></p>
+<label>Percentage</label></p>
+<label id="demo"></label></p>
+</center>
+<script>
+function reset()
+{
+document.getElementById("num").value="";
+document.getElementById("demo").innerHTML="";
+}
+function convert(){
+var cgpa,percent;
+var msg;
+cgpa=document.getElementById("num").value;
+if(cgpa=="")
+{
+alert("Please Enter CGPA");
+}
+else{
+if(cgpa >= 7.00)
+{
+percent= (7.4 * cgpa ) + 12;
+}
+else
+{
+percent=(7.1 * cgpa ) + 12;
+}
+
+document.getElementById("demo").innerHTML = percent;
+}
+}
+
+</script>
+</body>
+</html> 
+
