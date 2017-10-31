@@ -1,0 +1,42 @@
+body{
+background-image:url("images/background1.jpg");
+background-repeat:repeat-x;  
+}
+.header
+{
+	font-family: Comic Sans MS;
+	font-size:25;
+	background-color: #FBFCFC;
+	text-align: left;
+	color: #5DADE2;
+}
+.centerheader{
+	font-family:Comic Sans MS;
+	background-color:#FBFCFC;
+	display:inline-block;
+	text-align:center;
+	color:#5DADE2;
+}
+label{
+	font-family:Cosmic Sans MS;
+	background-color:#FBFCFC;
+	display:inline-block;
+	color:#5DADE2;
+}
+ul {
+	list-style-type:none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+}
+li{
+	float:left;
+}
+
+li a {
+	display:block;
+	padding:8px;
+	background:#dddddd;
+}
+
+
